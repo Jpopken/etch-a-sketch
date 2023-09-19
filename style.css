@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr); /* Create a 16x16 grid */
+     /* Add some spacing between grid items */
+    /* Add grid-specific styles here */
+}
